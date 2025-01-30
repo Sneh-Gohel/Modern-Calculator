@@ -1,15 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" async
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+        </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
     <script src="script.js"></script>
     <div class="body">
-        <div class="Centered-Calculator"></div>
+        <div class="Centered-Calculator">
+            <div class="screen">
+                    100
+            </div>
+            <div style="display: flex; align-items: center; justify-content: center;">
+                <div class="controls">
+                    <button>\( \frac{1}{x} \)</button>
+                    <button>\( x^2 \)</button>
+                    <button>&radic;x</button>
+                    <button>\( \pm \)</button>
+                    <button>C</button>
+                    <button>CE</button>
+                    <button><i class="fa-solid fa-delete-left"></i></button>
+                    <button>/</button>
+                    <button>7</button>
+                    <button>8</button>
+                    <button>9</button>
+                    <button>*</button>
+                    <button>4</button>
+                    <button>5</button>
+                    <button>6</button>
+                    <button>-</button>
+                    <button>1</button>
+                    <button>2</button>
+                    <button>3</button>
+                    <button>+</button>
+                    <button style="grid-column: 1 / span 2;">0</button>
+                    <button>.</button>
+                    <button>=</button>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
+
 </html>
